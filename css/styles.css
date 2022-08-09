@@ -1,0 +1,116 @@
+/* html {
+  background-color: #000000;
+}
+body {
+  background-color: #ffffff;
+}
+
+footer {
+  margin-top:40px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+aside {
+  background-color:#000000;
+  padding:10px;
+  position:static;
+  float:left;
+}
+
+#Aheader {
+
+
+}
+
+.Blogo {
+  width: 60px;
+  float: center;
+}
+.Bheader {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right:0px;
+  margin-bottom:0px;
+  padding-top:10px;
+  padding-left:30px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  background-color: black;
+} */
+:root {
+  --generic-backgroud-color: #f8f9fa;
+}
+body {
+  background-color: var(--generic-backgroud-color);
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:houver {
+  text-decoration: underline;
+  color: #f3f;
+  background-color: darkkhaki;
+}
+
+#generic_article_link:houver {
+  color:darkmagenta;
+}
+
+.nav-link {
+  color: black;
+}
+
+.left_text {
+  text-align: left;
+}
+
+.generic_nav {
+  background-color: #000000;
+  margin-bottom: 10px;
+}
+.generic_nav_item {
+  color: var(--generic-backgroud-color);
+}
+
+.active {
+ color:darkcyan;
+}
+
+.generic_toggle_button {
+  color:whitesmoke;
+}
+
+/* .dropdown-menu {
+  background-color: black;
+
+}
+
+.dropdown-item {
+  color: var(--generic-backgroud-color);
+} */
+
+.navbar-toggler {
+  border: 1px solid #ffffff;
+}
+
+.input-group {
+  width: 200px;
+}
+
+footer {
+  background-color: black;
+  color:#ffffff;
+}
+
+.generic_footer_sub {
+  margin-bottom: 20px;
+}

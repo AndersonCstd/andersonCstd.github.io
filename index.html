@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mr-D Init page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to the internet underworld!">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg justify-content-center generic_nav nav-pills p-2 mb-3 fixed-top">
+        <div class="container-fluid">
+        <a href="#" class="nav-item nav-link active generic_nav_item ">
+          <i class="bi-house-door"></i>
+          <b>Mr-D</b>
+        </a>
+        <button type="button" class="navbar-toggler " data-bs-toggle="collapse" data-bs-target="#navbarCollapse" >
+          <span class="bi bi-list border-1 generic_toggle_button"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+          <a href="#" class="nav-item nav-link left_text generic_nav_item">
+            <i class="bi bi-file-plus"></i>
+            Last Posts
+          </a>
+          <div class="nav-item dropdown">
+              <a href="#" class="nav-item nav-link generic_nav_item dropdown-toggle" data-bs-toggle="dropdown">
+                <i class="bi bi-envelope-open"></i>
+                Talk to me!
+              </a>
+              <div class="dropdown-menu">
+                <a href="mailto:anderson.k1006@gmail.com" class="dropdown-item">
+                  <i class="bi bi-envelope"></i>
+                  Email
+                </a>
+                <a href="http://instagram.com/anderson_cstd" class="dropdown-item" target="black" >
+                  <i class="bi bi-instagram"></i>
+                  Instagram
+                </a>
+                <a href="#" class="dropdown-item">
+                  <i class="bi bi-reddit"></i>
+                  r/MrD
+                </a>
+                </div>
+              </div>
+              <form class="d-flex">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search">
+                  <button type="button" class="btn btn-secondary"><i class="bi-search"></i></button>
+                </div>
+              </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container py-5">
+      <h5 style="margin-top:30px; text-align: center;">Highlights</h5>
+      <div class="container-fluid mt-6 p-2" class="justify-content-center" style="margin-bottom: 50px;">
+          <div id="highlight-carousel" class="carousel slide" data-bs-ride="corousel">
+            <ol class="carousel-indicators">
+              <li data-bs-target="#highlight-carousel" data-bs-slide-to="0" class="active"></li>
+              <li data-bs-target="#highlight-carousel" data-bs-slide-to="1"></li>
+              <li data-bs-target="#highlight-carousel" data-bs-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="qr-code-with-python.html">
+                  <img src="images/qr-code-python-thmb.png" class="d-block w-100" alt="Slide-1">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>How to generete Qr Codes quickly and easily with <i>Python!</i></h5>
+                    <p>With this little script you will be able to made <b>QR Codes</b> in a easily way,
+                      Wi-Fi includend!</p>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel-item">
+                <img src="images/kindle+linux-thumb.png" class="d-block w-100" alt="Slide-2">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 style="color:black;">Linux + Kindle!</h5>
+                  <p style="color:black;">The complete guinde about every tool you need to know to enjoy your 
+                    Amazon Kindle with your Linux computer. </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/terminal-sexy-thumb.png" class="d-block w-100" alt="Slide-3">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>How to make your terminal sexy!</h5>
+                  <p>Generete beautiful colors schemes to your terminal with the
+                    <b><i>Terminal Sexy</i></b> project. </p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#highlight-carousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#highlight-carousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+      </div>
+      <div class="container" >
+       
+        <div class="row">
+          <div class="col-xl-4 col-md-6">
+            <a href="qr-code-with-python.html" class="div-container-link" id="generic_article_link">
+              <h3 class="materia_title">How to generete Qr Codes quickly and easily with <i>Python!</i></h3>
+              <small> <p class="prelude">With this little script you will be able to made <b>QR Codes</b> in a easily way,
+                Wi-Fi includend!
+              </p> </small>
+            </a>
+
+        </div>
+          <div class="col-xl-4 col-md-6">
+            <a>
+              <h3 class="materia_title">Linux + Kindle</i></h3>
+              <p class="prelude">The complete guinde about every tool you need to know to enjoy your Amazon Kindle
+                with your Linux computer.
+              </p>
+            </a>
+
+        </div>
+          <div class="col-xl-4 col-md-6">
+            <a>
+              <h3 class="materia_title">How to make your terminal <i>sexy</i>!</h3>
+              <p class="prelude">Generete beautiful colors schemes to your terminal with the
+                <b><i>Terminal Sexy</i></b> project.
+              </p>
+            </a>
+          </div>
+        </div>
+    </div>
+    <div class="row pt-3 pb-4">
+      <nav>
+        <ul class="pagination justify-content-center">
+            <li class="page-item disabled"><span class="page-link">Previous</span></li>
+            <li class="page-item active"><a href="#" class="page-link">1</a></li>
+            <li class="page-item"><a href="#" class="page-link">2</a></li>
+            <!-- <li class="page-item"><a href="#" class="page-link">3</a></li>
+            <li class="page-item"><a href="#" class="page-link">4</a></li>
+            <li class="page-item"><a href="#" class="page-link">5</a></li> -->
+            <li class="page-item"><a href="#" class="page-link">Next</a></li>
+        </ul>
+    </nav>
+    </div>
+    </div>
+    <footer class="pt-5 m-0 pb-3">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-4 col-md-6 justify-content-center m-2">
+            <h4 class="text-center">Mr-D</h4>
+            <p class="text-center">
+              The best blog about tech and entertainment!
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-center text-light">
+          <div class="col-xl-4 col-md-4 col-sm-4" id="generic_footer-sub">
+            <a href="#" class="nav-link  text-light" >
+              <i class="bi bi-chat-left"></i>
+              Give me a suggestion!
+            </a>
+          </div>
+          <div class="col-xl-2 col-md-4 col-sm-4">
+            <a href="mailto:anderson.k1006@gmail.com" class="nav-link text-light">
+              <i class="bi bi-envelope"></i>
+              Email
+            </a>
+            </div>
+            <div class="col-xl-2 col-md-4 col-sm-4">
+            <a href="http://instagram.com/anderson_cstd" target="black" class="nav-link text-light">
+              <i class="bi bi-instagram"></i>
+              Instagram
+            </a>
+            </div>
+            <div class="col-xl-2 col-md-4 col-sm-4">
+            <a href="#" class="nav-link text-light">
+              <i class="bi bi-reddit"></i>
+              r/MrD
+            </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </footer>
+        <!-- Bootstrap JS Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+
+
+</html>
